@@ -70,7 +70,16 @@
             </div>
             <!-- Inferior do header -->
             <div class="headerBottom">
-                <div class="headerBottomContainer"></div>
+                <div class="headerBottomContainer">
+                    <ul>
+                        <li><a href="#" style="color: #055DE8; border-bottom: 3px solid #055DE8;">Início</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li><a href="#">Promoções</a></li>
+                        <li><a href="#">Mais vendidos</a></li>
+                        <li><a href="#">Masculino</a></li>
+                        <li><a href="#">Feminino</a></li>
+                    </ul>
+                </div>
             </div>
         </header>
     </body>

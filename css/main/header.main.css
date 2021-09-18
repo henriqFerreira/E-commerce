@@ -116,4 +116,24 @@ header{width: 100%;}
         /* Posição */
         margin: auto;
     }
-
+        .headerBottomContainer ul{
+            /* Posição */
+            position: relative;
+            top: 50%;
+            transform: translate(0%, -50%);
+            /* Estilo */
+            list-style: none;
+        }
+            .headerBottomContainer ul li{
+                /* Posição */
+                display: inline-block;
+            }
+                .headerBottomContainer ul li a{
+                    /* Dimensões */
+                    padding-bottom: 8px;
+                    margin-right: 15px;
+                    /* Estilo */
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 600;
+                }
