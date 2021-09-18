@@ -53,6 +53,56 @@ header{width: 100%;}
         /* Posição */
         margin: auto;
     }
+        .logo{
+            /* Posição */
+            position: relative;
+            top: 50%;
+            transform: translate(0%, -50%);
+            float: left;
+        }
+        .searchbar{
+            /* Posição */
+            position: relative;
+            top: 50%; left: 32%;
+            transform: translate(-50%, -50%);
+            float: left;
+        }
+            .searchbar input{
+                /* Dimensões */
+                padding: 8px;
+                /* Estilo */
+                font-size: 1em;
+                border: none;
+                outline: none;
+            }
+            .searchbar input[type="text"]{
+                /* Dimensões */
+                width: 350px;
+                /* Estilo */
+                border-radius: 50px 0px 0px 50px;
+            }
+            .searchbar input[type="submit"]{
+                /* Estilo */
+                cursor: pointer;
+                color: white;
+                font-weight: 600;
+                background-color: #055DE8;
+                border-radius: 0px 50px 50px 0px;
+            }
+        .icons{
+            /* Posição */
+            position: relative;
+            top: 50%;
+            transform: translate(0%, -50%);
+            float: right;
+            /* Estilo */
+        }
+            .icons a{
+                /* Dimensões */
+                margin-left: 25px;
+                /* Estilo */
+                text-decoration: none;
+            }
 
 .headerBottom{
     /* Dimensões */
