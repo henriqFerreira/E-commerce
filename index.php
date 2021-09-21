@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Links CSS -->
         <link rel="stylesheet" href="css/main/header.main.css">
+        <link rel="stylesheet" href="css/banner.css">
+        <link rel="stylesheet" href="css/main/style.main.css">
         <title>Document</title>
     </head>
     <body>
@@ -82,5 +84,16 @@
                 </div>
             </div>
         </header>
+        <section class="banner">
+            <div class="bannerBackground">
+                <svg width="100%" viewBox="0 0 1491 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="background">
+                        <rect id="Rectangle 29" width="1491" height="700" fill="#055DE8"/>
+                        <path id="Rectangle 31" d="M929 0H1491V518C1491 518 1412 268.5 1292.5 154.5C1173 40.5 929 0 929 0Z" fill="#07DFF5"/>
+                        <path id="Rectangle 30" d="M1216.5 484.5C1396.5 317.5 1491 0 1491 0V700H732C732 700 1036.5 651.5 1216.5 484.5Z" fill="#08A8FF"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
     </body>
 </html>
