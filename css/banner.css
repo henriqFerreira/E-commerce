@@ -1,6 +1,56 @@
 .banner{
     /* Dimensões */
-    width: 90%;
+    width: 90%; height: 90vh;
     /* Posição */
     margin: auto;
+    /* Estilo */
+    background-image: url(../Images/bannerBg.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.bannerText{
+    /* Dimensões */
+    width: 60%;
+    /* Posição */
+    position: relative;
+    top: 50%; left: 8%;
+    transform: translate(0%, -50%);
+    /* Estilo */
+    color: white;
+}
+
+.topText{
+    /* Estilo */
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.middleText{
+    /* Estilo */
+    font-weight: 600;
+    font-size: 2.5em;
+    letter-spacing: 10px;
+}
+
+.bottomText{
+    /* Estilo */
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.bannerButton{
+    /* Dimensões */
+    padding: 15px;
+    /* Posição */
+    margin-top: 20px;
+    /* Estilo */
+    font-weight: 600;
+    font-size: 1.1em;
+    color: white;
+    background-color: #08A8FF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
