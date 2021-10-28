@@ -94,3 +94,6 @@
         </section>
     </body>
 </html>
+
+<?php
+    echo "This is not Hacklang, Github! >:(";
